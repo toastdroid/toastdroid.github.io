@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Material Range Slider"
 author: Patrick Jackson
 categories: [development, material, design]

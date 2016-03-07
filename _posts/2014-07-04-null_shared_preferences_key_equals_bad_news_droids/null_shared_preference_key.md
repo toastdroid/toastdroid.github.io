@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Null Shared Preference Key == Bad News Droids"
 author: Chris Pierick
 categories: [tips, development]

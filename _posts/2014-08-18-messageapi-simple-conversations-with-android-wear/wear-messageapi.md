@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "MessageApi: Simple Conversations with Android Wear"
 author: Curtis Martin
 categories: [development]

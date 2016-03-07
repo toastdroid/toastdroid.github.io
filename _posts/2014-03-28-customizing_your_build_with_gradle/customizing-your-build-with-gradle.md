@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Customizing Your Build With Gradle"
 author: James Barr
 categories: [development, tools]

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Developing a Watch Face for Android Wear Lollipop"
 author: James Barr
 categories: [development, tools]

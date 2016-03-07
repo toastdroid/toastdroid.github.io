@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "The Joy of Painting: Canvas 101"
 author: Curtis Martin
 categories: [development]

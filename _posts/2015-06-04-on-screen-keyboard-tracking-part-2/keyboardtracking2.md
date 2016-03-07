@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "On-Screen Keyboard Tracking, Part 2"
 author: Ben Berry
 categories: [development]

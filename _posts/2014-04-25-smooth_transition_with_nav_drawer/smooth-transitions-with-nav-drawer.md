@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Smooth ActionBar Transitions when Opening a Navigation Drawer"
 author: Ben Berry
 categories: [development]

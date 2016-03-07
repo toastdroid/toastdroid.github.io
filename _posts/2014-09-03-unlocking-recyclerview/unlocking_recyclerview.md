@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Unlocking RecyclerView"
 author: Chris Pierick
 categories: [development]

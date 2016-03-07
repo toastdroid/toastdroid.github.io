@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Testing Apps Dependent On Private Repos"
 author: James Barr
 categories: [development, tools]

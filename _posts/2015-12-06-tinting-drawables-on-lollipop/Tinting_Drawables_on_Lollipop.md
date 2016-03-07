@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Byte of Toast: Tinting Drawables on Lollipop"
 author: Patrick Jackson
 categories: [development, lollipop, byte of toast]

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "2013 the death of Gingerbread"
 author: Chris Pierick
 categories: [opinion]

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Upgrading QA for Android"
 author: Karl Smith
 categories: [qa]

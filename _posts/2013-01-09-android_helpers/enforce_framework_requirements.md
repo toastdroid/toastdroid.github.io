@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Android Helpers"
 author: Fred Medlin
 categories: [android, java]

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Google Maps with Custom View Overlays"
 author: Patrick Jackson
 categories: [development, libraries, tools]

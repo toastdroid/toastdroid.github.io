@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "What is data binding and what does it solve?"
 author: Ben Berry
 categories: [development]

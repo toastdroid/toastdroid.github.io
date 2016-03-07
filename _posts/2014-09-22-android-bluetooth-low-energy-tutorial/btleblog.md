@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Android Bluetooth Low Energy Tutorial"
 author: Marcelle Gibble
 categories: [development]

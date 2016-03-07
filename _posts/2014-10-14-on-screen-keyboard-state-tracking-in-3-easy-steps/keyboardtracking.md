@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "On-Screen Keyboard State Tracking in 3 Easy Steps"
 author: Ben Berry
 categories: [development]
