@@ -6,7 +6,7 @@ categories: [development, tools]
 tags: [android, wear, watchface]
 ---
 
-*DEPRECATED: The official Android Wear Watch Face API has been released. You can find more details in [our updated post](development/tools/2014/12/10/developing-a-watch-face-for-android-wear-lollipop-developing-watch-faces-with-sdk).*
+*DEPRECATED: The official Android Wear Watch Face API has been released. You can find more details in [our updated post](/development/tools/2014/12/10/developing-a-watch-face-for-android-wear-lollipop-developing-watch-faces-with-sdk).*
 
 This past week, Two Toasters released their first Android Wear watchface called [Chron](https://play.google.com/store/apps/details?id=com.twotoasters.chron). Having worked on Chron and seen the lack of documentation about developing watchfaces, I wanted to share what we have learned and what we have done in order to make future watchfaces easier to develop.<!--more-->
 
