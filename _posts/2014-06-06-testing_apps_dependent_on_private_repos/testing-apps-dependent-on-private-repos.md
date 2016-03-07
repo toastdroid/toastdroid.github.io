@@ -1,12 +1,11 @@
 ---
-layout: post
-title: Testing Apps Dependent On Private Repos
+title: "Testing Apps Dependent On Private Repos"
 author: James Barr
 categories: [development, tools]
 tags: [android, tools, testing]
 ---
 
-Testing is an important part of our development process. [Travis](https://travis-ci.com/) is an extremely helpful service that integrates with GitHub and runs our unit tests in a continous integration fashion. Often, we are developing apps for clients, and as such, we are working in a private GitHub repo. This is not an issue for us since Travis sets up public & private SSH keys in order to access the app's private repo. The issue we recently ran into, though, was when that app is dependent on another private repo, such as an SDK that we are also developing in private. Here are the steps we took to fix our CI process in a secure manner...
+Testing is an important part of our development process. [Travis](https://travis-ci.com/) is an extremely helpful service that integrates with GitHub and runs our unit tests in a continous integration fashion. Often, we are developing apps for clients, and as such, we are working in a private GitHub repo. This is not an issue for us since Travis sets up public & private SSH keys in order to access the app's private repo. The issue we recently ran into, though, was when that app is dependent on another private repo, such as an SDK that we are also developing in private. Here are the steps we took to fix our CI process in a secure manner...<!--more-->
 
 ### Prepare Your App's Dependency
 

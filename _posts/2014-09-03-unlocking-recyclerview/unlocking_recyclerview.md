@@ -1,6 +1,5 @@
 ---
-layout: post
-title: Unlocking RecyclerView
+title: "Unlocking RecyclerView"
 author: Chris Pierick
 categories: [development]
 tags: [recyclerview, support library]
@@ -15,7 +14,7 @@ There has been a lot of excitement about Android L's new RecyclerView.
 ## There's a Library for that
 For this reason the [RecyclerViewLib](https://github.com/twotoasters/RecyclerViewLib) has been created with gradle support.
  The source from the `recyclerview-v7` and `cardview-v7` support libraries have been copied into [RecyclerViewLib](https://github.com/twotoasters/RecyclerViewLib) and any code that references L has been removed.
- While this makes it safe to use after the final version of L has been released, it also means that it will be using the support views even on L.
+ While this makes it safe to use after the final version of L has been released, it also means that it will be using the support views even on L.<!--more-->
 
 ## Implementing RecyclerView
 RecyclerView has a few more components then ListView does.

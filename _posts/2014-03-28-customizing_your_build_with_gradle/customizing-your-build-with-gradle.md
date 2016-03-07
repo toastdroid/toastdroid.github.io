@@ -1,12 +1,11 @@
 ---
-layout: post
-title: Customizing Your Build With Gradle
+title: "Customizing Your Build With Gradle"
 author: James Barr
-categories: [Development, Tools]
+categories: [development, tools]
 tags: [android, opensource, tools]
 ---
 
-If you haven’t already heard, Gradle is the new build system for Android apps.  Android Studio, the new development IDE for Android apps, leverages Gradle for doing the actual building of the app.  The great thing about Gradle is that it is very customizable.  You could even setup your Gradle build configuration such that you would not have to alter your Eclipse ADT project structure. So basically, there is no reason not to go ahead and try out Gradle right now. And when you do, here are some cool things that you can try out...
+If you haven’t already heard, Gradle is the new build system for Android apps.  Android Studio, the new development IDE for Android apps, leverages Gradle for doing the actual building of the app.  The great thing about Gradle is that it is very customizable.  You could even setup your Gradle build configuration such that you would not have to alter your Eclipse ADT project structure. So basically, there is no reason not to go ahead and try out Gradle right now. And when you do, here are some cool things that you can try out...<!--more-->
 
 ## Parsing the Android manifest file
 

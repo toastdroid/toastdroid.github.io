@@ -1,12 +1,11 @@
 ---
-layout: post
-title: CWAC-Camera - An Easier Way to Take Photos in Android
+title: "CWAC-Camera - An Easier Way to Take Photos in Android"
 author: Curtis Martin
 categories: [development, libraries, tools]
 tags: [camera, opensource]
 ---
 
-One of Android's greatest strengths is its ability to run on a plethora of different types of devices and hardware configurations. For developers, however, this presents an interesting problem: how do you go about supporting all these different hardware variations? While Google has done a fine job of abstracting the finer details of hardware interaction away from the developer in most cases, the Android camera API still poses a substantial number of hurdles to this day.
+One of Android's greatest strengths is its ability to run on a plethora of different types of devices and hardware configurations. For developers, however, this presents an interesting problem: how do you go about supporting all these different hardware variations? While Google has done a fine job of abstracting the finer details of hardware interaction away from the developer in most cases, the Android camera API still poses a substantial number of hurdles to this day.<!--more-->
 
 In order to use a device's camera, an application must perform roughly the following steps:
 

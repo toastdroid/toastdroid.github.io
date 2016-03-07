@@ -1,6 +1,5 @@
 ---
-layout: post
-title: What is data binding and what does it solve?
+title: "What is data binding and what does it solve?"
 author: Ben Berry
 categories: [development]
 tags: [data binding, support library]
@@ -8,7 +7,7 @@ tags: [data binding, support library]
 
 Data binding allows us to remove all the boilerplate `findViewById()` calls as well as having to manually update those views in the code. 
 With Android now officially supporting data binding it opens the doors for a [MVVM][1] architecture. MVVM stands for Model-View-ViewModel. With MVVM the ViewModel and the View are really de-coupled making it easy to test the ViewModel without even needing a View. Since the View updates its components via a data binder there is no need for the ViewModel to be dependent on it. The ViewModel can simply update the Model and whichever View is currently binding to that Model will also update.
-
+<!--more-->
 
 ## MVVM Architecture example
 ![](http://i.imgur.com/AryUZmj.jpg)
@@ -149,6 +148,7 @@ public void restartTimer() {
 This function uses an Android CountDownTimer class and when it is started every second that goes by we update our model by setting the appropriate time left.
 
 Create a MainActivity class that will be our launcher activity for our application and will act as our View.
+
 ```java
 public class MainActivity extends AppCompatActivity {
 
@@ -180,6 +180,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 Now that the timer is started, when the "Next Activity" button is pressed on the `MainActivity` we want to launch our `SecondActivity` and display that same timer on the screen.
+
 ```java
 public class SecondActivity extends AppCompatActivity {
 
@@ -210,6 +211,7 @@ public class SecondActivity extends AppCompatActivity {
 This activity will get an instance of our CountdownViewModel that contains the running timer and bind that CountdownViewModel instance to the PersistantCountdownActivityBinder, which corresponds to our XML layout file.
 
 `R.layout.activity_second`
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">

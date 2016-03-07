@@ -1,8 +1,7 @@
 ---
-layout: post
-title: 2013 the death of Gingerbread
+title: "2013 the death of Gingerbread"
 author: Chris Pierick
-categories: [Opinion]
+categories: [opinion]
 tags: [GB, ICS]
 ---
 
@@ -12,7 +11,7 @@ This happened in 2013 but most developers have not realized it yet. Unless you'r
 
 ## Gingerbread and IceCreamSandwich are losing marketshare
 
-Right now, if you set your app's minimum API level to 16, you are missing out on 35% of the market. That is changing rapidly as both Gingerbread and IceCreamSandwich are on a downward slope(Fig 1). 
+Right now, if you set your app's minimum API level to 16, you are missing out on 35% of the market. That is changing rapidly as both Gingerbread and IceCreamSandwich are on a downward slope(Fig 1).<!--more-->
 
 Gingerbread accounts for 20% of Android devices. At current loss of market, an average of -2.17% per month, in just over 4 months Gingerbread will only have 10% of the market. On top of that, IceCreamSandwich's current loss of market is -1.28% per month. If this holds true, then in four months API level 15 and lower will contain less then 20% of the total android market. This leaves about 80% of the market at API level 16 or higher.
 

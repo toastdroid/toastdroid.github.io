@@ -1,12 +1,11 @@
 ---
-layout: post
-title: On-Screen Keyboard State Tracking in 3 Easy Steps
+title: "On-Screen Keyboard State Tracking in 3 Easy Steps"
 author: Ben Berry
 categories: [development]
 tags: [keyboard]
 ---
 
-If you've never been frustrated by the inability in Android to know whether or not the on-screen keyboard is open, this article probably isn't for you. Even if you have hit that roadblock in the past, it's very possible that Android was trying to save you from a bad design decision. But if you really want to know how to deal with whether or not the soft keyboard is open, read on.
+If you've never been frustrated by the inability in Android to know whether or not the on-screen keyboard is open, this article probably isn't for you. Even if you have hit that roadblock in the past, it's very possible that Android was trying to save you from a bad design decision. But if you really want to know how to deal with whether or not the soft keyboard is open, read on.<!--more-->
 
 So everyone still here knows that Android doesn't provide any method for determining if the soft keyboard is currently open, which can mean only one thing: we have to do it ourselves.
 
@@ -77,7 +76,7 @@ editText.setBackPressedListener(new BackPressedListener() {
         isKeyboardOpen = false;
     }
 });
-    ```
+```
 
 ### Extra Credit: Hooking in to the Activity Lifecycle
 If the user presses the back button to exit your activity, that'll cause the BackPressedListener to fire, closing the keyboard and updating the internal state. But if the user exits the activity another way, like pressing the Home button, the keyboard will be closed without updating our variable. It's annoying, but it's all a part of the manual bookkeeping we have to do on the keyboard's state.

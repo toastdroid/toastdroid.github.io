@@ -1,13 +1,12 @@
 ---
-layout: post
-title: Upgrading QA for Android
+title: "Upgrading QA for Android"
 author: Karl Smith
 categories: [qa]
 ---
 
 If you are a QA veteran, you have likely formed a set of skills and routines that allow you to tackle each project efficiently.  For the most part, you can re-institute your toolset if you move to a different QA position or your company begins developing for new platforms.  
 
-Coming from a web QA background, I spent most days dealing with the 4 major web browsers and a handful of operating systems.  I had my routine of going through each, performing Black Box, Regression, Ad-Hoc, and Smoke testing.  Eventually, the company I was with decided to take their product mobile and I was introduced to iOS for the first time.  With little adjustment, I was able to translate my web skills to iOS testing.  Similar to web related testing, Apple has a handful of devices, a regularly updated OS, and just a few browsing clients.
+Coming from a web QA background, I spent most days dealing with the 4 major web browsers and a handful of operating systems.  I had my routine of going through each, performing Black Box, Regression, Ad-Hoc, and Smoke testing.  Eventually, the company I was with decided to take their product mobile and I was introduced to iOS for the first time.  With little adjustment, I was able to translate my web skills to iOS testing.<!--more-->  Similar to web related testing, Apple has a handful of devices, a regularly updated OS, and just a few browsing clients.
 
 When I started work at Two Toasters, I got my first taste of Android.  Like before, I expected my skills to easily translate over to the new platform without need of assistance or training.  I wasn't completely wrong, but there are definitely a few Android specific quirks that, had I known ahead of time, would have made for a much smoother transition.
 

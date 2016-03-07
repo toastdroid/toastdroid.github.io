@@ -1,9 +1,7 @@
 ---
-layout: post
-title: Android Helpers
-date: 2013-01-09 10:01
+title: "Android Helpers"
 author: Fred Medlin
-categories: [Android, Java]
+categories: [android, java]
 ---
 
 Java helpers are simply classes that work can be delegated to. There is no difference in Android applications. Keeping helper classes small, tight and focused can improve your app. Here are some advantages:
@@ -12,7 +10,7 @@ Java helpers are simply classes that work can be delegated to. There is no diffe
 * Wrap platform differences
 * Keep your code DRY
 
-First things first. Create a class with a private constructor. That will prevent accidental instantiation of the helper class. For our purposes, the helper class will simply be a collection of public static methods.
+First things first. Create a class with a private constructor. That will prevent accidental instantiation of the helper class. For our purposes, the helper class will simply be a collection of public static methods.<!--more-->
 
 ```java
 public class ExternalStorageHelper {

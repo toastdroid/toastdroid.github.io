@@ -1,12 +1,11 @@
 ---
-layout: post
-title: Developing a Watch Face for Android Wear Lollipop
+title: "Developing a Watch Face for Android Wear Lollipop"
 author: James Barr
 categories: [development, tools]
 tags: [android, wear, watch face, lollipop]
 ---
 
-Today, Google announced [Lollipop for Android Wear](http://android-developers.blogspot.com/) devices. One of the most anticipated features included in this update is official support for developing watch faces. This is such an exciting feature that many developers, Two Toasters included, have already released unofficial watch faces (such as [Chron](https://play.google.com/store/apps/details?id=com.twotoasters.chron)) using [unofficial methods](http://toastdroid.com/2014/07/18/developing-watch faces-for-android-wear/). Two Toasters was lucky enough to get early access to the watch face APIs and had the opportunity to partner with Specialized, a brand well known to cyclists everywhere, to develop the [Specialized Bikes Watch Face](https://play.google.com/store/apps/details?id=com.specialized.watchface) that is uniquely suited to cyclists. Now that official support exists for watch faces, let me show you how to implement one the proper way so you can gain all of the benefits and features from using the new APIs.
+Today, Google announced [Lollipop for Android Wear](http://android-developers.blogspot.com/) devices. One of the most anticipated features included in this update is official support for developing watch faces. This is such an exciting feature that many developers, Two Toasters included, have already released unofficial watch faces (such as [Chron](https://play.google.com/store/apps/details?id=com.twotoasters.chron)) using [unofficial methods](http://toastdroid.com/2014/07/18/developing-watch faces-for-android-wear/). Two Toasters was lucky enough to get early access to the watch face APIs and had the opportunity to partner with Specialized, a brand well known to cyclists everywhere, to develop the [Specialized Bikes Watch Face](https://play.google.com/store/apps/details?id=com.specialized.watchface) that is uniquely suited to cyclists. Now that official support exists for watch faces, let me show you how to implement one the proper way so you can gain all of the benefits and features from using the new APIs.<!--more-->
 
 ### Wear Watch Face API Overview
 

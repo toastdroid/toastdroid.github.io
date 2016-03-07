@@ -1,6 +1,5 @@
 ---
-layout: post
-title: Material Range Slider
+title: "Material Range Slider"
 author: Patrick Jackson
 categories: [development, material, design]
 tags: [support library]
@@ -9,6 +8,7 @@ tags: [support library]
 Material design is the new hotness and there are tons of [guidelines and mock ups that Google has given to us](https://www.google.com/design/spec/material-design/introduction.html).  While they have given us a few implementations with the new [Design Support Library](http://android-developers.blogspot.com/2015/05/android-design-support-library.html), we are still left to implement lots of widgets ourselves.  Recently we made a custom range picker so the user could select a range of prices.  We think it's nice so we are sharing it here with you ([source and sample app on github](https://github.com/twotoasters/MaterialRangeSlider)), and perhaps you can get ideas for implementing your own material-inspired widgets.
 
 ![](http://i.imgur.com/2hou4LT.gif)
+<!--more-->
 
 Our slider is based on Google's [sliders](http://www.google.com/design/spec/components/sliders.html) design guidelines, but with two sliders rather than one.  The design is simple - a few lines and circles representing the selected values.  The circles grow and shrink as the user touches and releases to provide visual feedback.  So where do we start?
 

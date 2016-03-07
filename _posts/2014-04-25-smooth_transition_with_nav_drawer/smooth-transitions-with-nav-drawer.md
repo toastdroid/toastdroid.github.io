@@ -1,13 +1,13 @@
 ---
-title: Smooth ActionBar Transitions when Opening a Navigation Drawer
+title: "Smooth ActionBar Transitions when Opening a Navigation Drawer"
 author: Ben Berry
-categories: [Development]
-tags: [Android, Java, Animation]
+categories: [development]
+tags: [android, java, animation]
 ---
 
 Have you ever wanted your Action Bar to animate and change as smoothly as your Navigation Drawer when the drawer opens and closes? Here at Two Toasters, this is exactly the kind of little touch we pay attention to. So when we come across this kind of janky transition, we fix it:
 
-![What it looks like before](/assets/2014-04-25-smooth_transition_with_nav_drawer/animation_before.gif)
+![What it looks like before](/assets/2014-04-25-smooth_transition_with_nav_drawer/animation_before.gif)<!--more-->
 
 Notice how the Action Bar only changes its text and button after the drawer has finished animating? Yeah, that has got to go. What if we could get them to animate and change at the same time?
 

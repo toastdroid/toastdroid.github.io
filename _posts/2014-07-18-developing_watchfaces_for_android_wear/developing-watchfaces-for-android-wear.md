@@ -1,6 +1,5 @@
 ---
-layout: post
-title: Developing Watchfaces for Android Wear
+title: "Developing Watchfaces for Android Wear"
 author: James Barr
 categories: [development, tools]
 tags: [android, wear, watchface]
@@ -8,7 +7,7 @@ tags: [android, wear, watchface]
 
 *DISCLAIMER: Watchfaces are not yet officially supported by the Android SDK and could break in future versions of Android*
 
-This past week, Two Toasters released their first Android Wear watchface called [Chron](https://play.google.com/store/apps/details?id=com.twotoasters.chron). Having worked on Chron and seen the lack of documentation about developing watchfaces, I wanted to share what we have learned and what we have done in order to make future watchfaces easier to develop.
+This past week, Two Toasters released their first Android Wear watchface called [Chron](https://play.google.com/store/apps/details?id=com.twotoasters.chron). Having worked on Chron and seen the lack of documentation about developing watchfaces, I wanted to share what we have learned and what we have done in order to make future watchfaces easier to develop.<!--more-->
 
 ### Wear Watchface Overview
 

@@ -1,6 +1,5 @@
 ---
-layout: post
-title: On-Screen Keyboard Tracking, Part 2
+title: "On-Screen Keyboard Tracking, Part 2"
 author: Ben Berry
 categories: [development]
 tags: [keyboard]
@@ -9,6 +8,7 @@ tags: [keyboard]
 A few months ago, we discussed [the basic steps you can use to keep track of whether a screen in your app has the soft keyboard open](http://toastdroid.com/2014/10/14/on-screen-keyboard-state-tracking-in-3-easy-steps/). 
 
 At Ticketmaster Mobile Studio, we've found this especially important and useful on a Fragment or Activity that has one single EditText on it and a bunch of other Views. Whether the rest of the screen is a camera preview or a complex RecyclerView, managing that one EditText can become a problem. Today’s post will help you control whether the EditText has focus and, perhaps more importantly, an annoying blinking cursor, even when the soft keyboard is closed.
+<!--more-->
 
 To understand the blinking cursor, first a quick review of the rules for focus in Android. When an activity starts, the first *focusable* view is given focus. Views can `requestFocus()` which does exactly what you'd think. They can also `clearFocus()` which abdicates focus back to the first focusable view in the View hierarchy. If the View that just tried to clear focus happens to be the only focusable view in the hierarchy? It gets unfocused and then immediately focused again. Unless we intervene.
 

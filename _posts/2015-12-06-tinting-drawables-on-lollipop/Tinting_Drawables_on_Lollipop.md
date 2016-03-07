@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Byte of Toast: Tinting Drawables on Lollipop"
 author: Patrick Jackson
 categories: [development, lollipop, byte of toast]
@@ -9,7 +8,7 @@ One of the cool things about Android 5.0 Lollipop is that you can colorize syste
  While this is nice, it doesn't work for every drawable you provide.
  But thankfully this is also easy.
  First create a png resource, your drawable, which only has transparency and white, this can be a 9-patch.
- Next in res/drawable or res/drawable-v21 make an xml drawable.
+ Next in `res/drawable` or `res/drawable-v21` make an xml drawable.
  For our example we'll call this drawable ic_back_red.xml.
  In this file the `<bitmap>` tag should be our root and we need to set the `src` and `tint` fields.
  
