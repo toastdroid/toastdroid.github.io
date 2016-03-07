@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is data binding and what does it solve?"
-author: Ben Berry
+author: Adam Shea
 categories: [development]
 tags: [data binding, support library]
 ---

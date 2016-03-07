@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Byte of Toast: Tinting Drawables on Lollipop"
-author: Patrick Jackson
+author: Chris Pierick
 categories: [development, lollipop, byte of toast]
 ---
 
