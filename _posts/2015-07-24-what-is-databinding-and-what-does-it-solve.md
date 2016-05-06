@@ -16,7 +16,7 @@ With Android now officially supporting data binding it opens the doors for a [MV
 ## Requirements
 To get started you need to be using `'com.android.tools.build:gradle:1.3.0-beta1'` or higher inside your project's `build.gradle` file. Inside that same file you also need to add `'com.android.databinding:dataBinder:1.0-rc0'` so that it looks something like this:
 
-```java
+```groovy
 dependencies {
     classpath 'com.android.tools.build:gradle:1.3.0-beta1'
     classpath 'com.android.databinding:dataBinder:1.0-rc0'

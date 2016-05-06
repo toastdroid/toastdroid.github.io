@@ -51,7 +51,7 @@ android {
     ...
     buildTypes {
         debug {
-            buildConfigField “boolean”, “REPORT_CRASHES”, “true”
+            buildConfigField "boolean", "REPORT_CRASHES", "true"
         }
         ...
     }    

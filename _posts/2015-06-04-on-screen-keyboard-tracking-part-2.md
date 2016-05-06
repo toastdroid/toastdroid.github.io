@@ -6,7 +6,7 @@ categories: [development]
 tags: [keyboard]
 ---
 
-A few months ago, we discussed [the basic steps you can use to keep track of whether a screen in your app has the soft keyboard open](http://toastdroid.com/2014/10/14/on-screen-keyboard-state-tracking-in-3-easy-steps/). 
+A few months ago, we discussed [the basic steps you can use to keep track of whether a screen in your app has the soft keyboard open](/2014/10/14/on-screen-keyboard-state-tracking-in-3-easy-steps). 
 
 At Ticketmaster Mobile Studio, we've found this especially important and useful on a Fragment or Activity that has one single EditText on it and a bunch of other Views. Whether the rest of the screen is a camera preview or a complex RecyclerView, managing that one EditText can become a problem. Today’s post will help you control whether the EditText has focus and, perhaps more importantly, an annoying blinking cursor, even when the soft keyboard is closed.
 <!--more-->
@@ -15,7 +15,7 @@ To understand the blinking cursor, first a quick review of the rules for focus i
 
 In this example, we'll start with a screen with one EditText that's initially not focused and the keyboard is closed. If the user wants to type some text, they'll tap the EditText, and it'll gain focus. When they close the keyboard by pressing back or "Submit", the EditText will make itself unfocusable and then `clearFocus()` leaving the View Hierarchy with no focusable Views.
 
-To do this, we'll create a new EditText similar to last time's [BackAwareEditText](http://toastdroid.com/2014/10/14/on-screen-keyboard-state-tracking-in-3-easy-steps/), a View suitable for being the only EditText on the screen:
+To do this, we'll create a new EditText similar to last time's [BackAwareEditText](/2014/10/14/on-screen-keyboard-state-tracking-in-3-easy-steps), a View suitable for being the only EditText on the screen:
 
 ```java
 public class LonelyEditText extends EditText {

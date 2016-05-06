@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2013 the death of Gingerbread"
+title: "2013: The Death of Gingerbread"
 author: Chris Pierick
 categories: [opinion]
 tags: [GB, ICS]

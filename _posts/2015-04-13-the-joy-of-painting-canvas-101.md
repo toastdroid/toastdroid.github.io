@@ -6,7 +6,7 @@ categories: [development]
 tags: [ui, canvas, paths, drawing]
 ---
 
-In [a previous blog post](http://toastdroid.com/2014/06/21/creating-reusable-custom-components/), we touched on creating custom UI components containing several stock Android controls. But what if you want to create a completely custom View, complete with its own drawing behavior? To accomplish that, you'll need to become familiar with the `Canvas`.
+In [a previous blog post](/2014/06/21/creating_reusable_custom_components), we touched on creating custom UI components containing several stock Android controls. But what if you want to create a completely custom View, complete with its own drawing behavior? To accomplish that, you'll need to become familiar with the `Canvas`.
 
 ## What Canvas?
 

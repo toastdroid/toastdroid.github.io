@@ -174,7 +174,7 @@ When the heart rate monitor sends the heart rate measurement to the Android devi
 
 ```java
 @Override
-public void onCharacteristicChanged(BluetoothGatt gatt, final 	BluetoothGattCharacteristic characteristic) {
+public void onCharacteristicChanged(BluetoothGatt gatt, final BluetoothGattCharacteristic characteristic) {
 	//read the characteristic data
 	byte[] data = characteristic.getValue();
 }
