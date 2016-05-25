@@ -1,0 +1,64 @@
+---
+layout: post
+title: "What Every Android Dev Should Know From I/O '16"
+author: Patrick Jackson
+categories: [opinion]
+tags: [Google I/O]
+---
+
+![](https://storage.googleapis.com/fflog/IO_2016_keynote_sm.png)
+
+News and information from Google I/O can be a firehose.  All the info and session videos can be found at the [I/O site](https://events.google.com/io2016/), but here is my list of Android highlights that every Android dev should know.<!--more-->
+
+### Instant Apps
+Instant Apps will allow users to deeplink directly into your app from a webpage or another app, __EVEN IF THE APP IS NOT INSTALLED__.  This is huge.  Previously users were redirected to the Play Store to install the app, wait to install the app, and then open the app to finally see the content.  Many users get lost during this process or just don't want to install an app to their device.  Instant Apps will allow a much smoother transition from web to native apps and will keep users engaged in their activity.  
+
+This works by breaking an app into modules that can be loaded separately rather than downloading the entire APK.  The module is then run in memory.  Apps will have to support Instant Apps and so far the details on how this magic works is sparse.  [More information will be available later this year](https://developer.android.com/topic/instant-apps/index.html).
+
+### ConstraintLayout
+
+ConstraintLayout is new layout in the support libs that works back to Gingerbread.  It has been made to work together with Android Studio and a new layout editor.  The new layout editor, available in Android Studio 2.2, is a WYSIWYG editor that allows you to drag and drop views and create "constraints" on layouts.  It feels similar to relative layout, however the ConstantLayout will make the view hierarchy flat and therefore more efficient than having nested layouts.  The constraints allow more robust control when specifying a layout, so you won't need to use LinearLayouts inside your RelativeLayout to get fine-grained positioning anymore. The ConstraintLayout may also be edited in XML.  Check out [Android Layouts: a new world](https://www.youtube.com/watch?v=sO9aX87hq9c&list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC&index=88) and [this doc](http://tools.android.com/tech-docs/layout-editor) to learn more.
+
+### Android N
+Android N is bringing lots of new features with it. The developer preview release has been available for a couple months and now the developer preview 3 is available for Nexus devices. I'm not going to try to cover all the new features and APIs, but here's a quick list of a few big ones:
+
+* VR support
+* Multi-window mode
+* Drag and Drop across activities
+* Notification updates - attribution, direct reply, bundled notifications
+* Quick settings - editable & custom tiles
+* Adjustable display size
+* New doze mode
+* Direct boot
+* Java 8 features (lambdas!)
+
+For more info check out [What's New in Android session](https://www.youtube.com/watch?v=B08iLAtS3AQ&index=4&list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC) for more info and as well as the [Android N developer page](https://developer.android.com/preview/index.html?gclid=Cj0KEQjw94-6BRDkk568hcyg3-YBEiQAnmuwklrOhBQMXmGpwd9YVAOCq5FIW8GcnZW-5FBPzOMDKnQaAqno8P8HAQ)
+
+### Firebase
+Firebase was everywhere at I/O this year with 12 sessions and mentioned in many others.  For those not familiar, Firebase was acquired by Google about 1.5 years ago and has offered a realtime database, authentication, and static hosting.  Now Firebase has been expanded to 15 products that complement each other.  These are Analytics, Cloud Messaging, Realtime Database, Authentication, Storage, Hosting, Remote Config, Test Lab, Crash Reporting, Notifications,  App Indexing, Dynamic Links, Invites, Adwords, & Admob.  Google is really promoting this as making mobile apps easy and quicker to develop and has a new Firebase console for developers.  If you want the big picture of what Firebase has become, the [Firebase Overview session](https://www.youtube.com/watch?v=tb2GZ3Bh4p8&list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC&index=32) is a good one to watch.
+
+One important change is Google Cloud Messaging is now Firebase Cloud Messaging.  For those using GCMNetworkManager (should be everyone with minSdk < 21), it has now has an [open source successor named FirebaseJobDispatcher](https://github.com/firebase/firebase-jobdispatcher-android). 
+##Espresso Test Recorder
+Also new in Android Studio 2.2 is the ability to record espresso tests from your device or emulator.  Basically you start the espresso recorder and navigate through your app and espresso code is generated that will perform the same actions automatically.  This looks like a great way to speed up writing automated UI tests.  To see it in action checkout the [What's New in Android Development Tools](https://youtu.be/csaXml4xtN8?t=1349) session.
+
+### Awareness API
+A whole new API was announced called the Awareness API which is "A unified sensing platform enabling applications to be aware of multiple aspects of a user's context, while managing battery and memory health."  Essentially the Awareness API takes the existing device APIs and allows you to create simplified rules for when to get notifications about the user's context.  For example you may want your app to run a task when a user is riding in a car AND is near they favorite drugstore during business hours.  There are 7 contexts supported by the Awareness API: time, location, place, activity, beacons, headphones, and weather.  What is really nice about this api is your app does not need to be running to receive an Intent when the user has entered your required contexts.  More information is available [here](https://developers.google.com/awareness/) and [I/O Session here](https://www.youtube.com/watch?v=37ia7S4Lsv4&index=12&list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC).
+
+### Android VR
+VR had a big presence at I/O as well with an announcement of DayDream. Daydream devices will be android devices that meet specifications set by Google.  There were 19 sessions on VR including topics on design, cinema, monetizing, Cardboard, Project Tango, and VR in the classroom.  Now Android has [VR SDKs for Daydream and cardboard](https://developers.google.com/vr/). 
+	
+### Android Auto
+Android Auto had a presence at I/O with several demo cars setup with Android Auto (and an awesome [concept of Android Auto integrated in a Maserati in the instrument panel](http://www.gizmodo.com.au/2016/05/google-turned-a-maserati-into-an-android-car/)).  Also the Android Auto app will be able to run on phones.  This will allow the same UI and functionality of Android Auto to be used by anyone with an Android phone.  Biggest take away here for most developers is that number of users using Android Auto will be growing.  There were two sessions on the Android auto including [Future of Android Auto](https://www.youtube.com/watch?v=0Cv1EFhYU2M&index=28&list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC) session which talks about bringing your app to Android Auto.
+
+### Support Libs
+A few updates to the support libs were announced and there was a session covering [What's new in the support library](https://www.youtube.com/watch?v=w45y_w4skKs&index=14&list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC).  Important news announced was: 
+
+* Dropping support for below API 9 (Gingerbread)
+* support lib v4 being broken up into multiple libs (compat, media, fragment, etc)
+
+### Expert's Guide to Android Development Tools
+Not really any news or announcements in this session, but this is PACKED with helpful tips and tricks to make our job easier and more efficient.  Team members on the ADT team each give there top tips.  [Every android dev should check it out here.](https://www.youtube.com/watch?v=hHnTIMjd1Y8)
+
+### Conclusion
+Those are the highlights for Android from 2016 Google I/O!  Hopefully you've found some good sessions to watch and learn the latest from Google.
+![](https://storage.googleapis.com/fflog/IO_2016_logo.png)
