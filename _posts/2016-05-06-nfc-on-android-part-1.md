@@ -48,4 +48,4 @@ NDEF, the NFC Data Exchange Format, defines a protocol and formats for storing d
 
 You can also write multiple records to a tag, and let the reader scanning it handle each in turn. For example, you could have a plaintext record that explains the contents of the tag if anyone wants to know, a second record with an app-specific record, and a third one with a simple “http://” URL in it. If the Android device doesn’t have the application installed to handle the second record, it’ll fall through to just opening the URL, which could be your website or a link to install your app on the Play Store. (Although, as a convenience, if you try to run a specific package from an NDEF record and it’s not installed, Android will take you to the Play Store listing for the app.) 
 
-Join us in two weeks when we’ll dive into how to read and write NDEF records on tags, respond to requests from other NFC readers, and talk about NFC security.
+Join us next month when we’ll dive into how to read and write NDEF records on tags, respond to requests from other NFC readers, and talk about NFC security.
