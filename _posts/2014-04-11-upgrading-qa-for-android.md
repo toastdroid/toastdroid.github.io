@@ -3,6 +3,8 @@ layout: post
 title: "Upgrading QA for Android"
 author: Karl Smith
 categories: [qa]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/upgrading-qa-for-android
 ---
 
 If you are a QA veteran, you have likely formed a set of skills and routines that allow you to tackle each project efficiently.  For the most part, you can re-institute your toolset if you move to a different QA position or your company begins developing for new platforms.  

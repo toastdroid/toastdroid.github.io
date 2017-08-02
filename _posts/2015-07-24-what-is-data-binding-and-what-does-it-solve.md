@@ -4,6 +4,8 @@ title: "What is data binding and what does it solve?"
 author: Adam Shea
 categories: [development]
 tags: [data binding, support library]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/what-is-data-binding-and-what-does-it-solve
 ---
 
 Data binding allows us to remove all the boilerplate `findViewById()` calls as well as having to manually update those views in the code. 

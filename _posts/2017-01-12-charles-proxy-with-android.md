@@ -4,6 +4,8 @@ title: "Charles Proxy with Android"
 author: Patrick Jackson
 categories: [tools]
 tags: [Charles proxy, Nougat]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/charles-proxy-with-android
 ---
 
 Viewing the network traffic of your app is a great debugging tool.  Sure, we can add logs or use [Stetho](http://facebook.github.io/stetho/) (which I recommend, it's great!), but sometimes you need to see what is ___actually___ going out over the wire. This will walk you through getting Charles Proxy  [Charles Proxy](https://www.charlesproxy.com/) setup with Android so you can see all your requests, including SSL.  If you've used Charles in the past you may want to pay attention because there are some new changes with Nougat.

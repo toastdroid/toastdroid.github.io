@@ -4,6 +4,8 @@ title: "Creating Reusable Custom Components"
 author: Curtis Martin
 categories: [development]
 tags: [ui, views]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/creating-reusable-custom-components
 ---
 
 The stock Views provided by Android are pretty flexible, and usually they're good enough if you're adhering to the [Android Design Guidelines](https://developer.android.

@@ -4,6 +4,8 @@ title: "Developing Watchfaces for Android Wear"
 author: James Barr
 categories: [development, tools]
 tags: [android, wear, watchface]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/developing-watchfaces-for-android-wear
 ---
 
 *DEPRECATED: The official Android Wear Watch Face API has been released. You can find more details in [our updated post](/2014/12/10/developing-a-watch-face-for-android-wear-lollipop).*
@@ -80,4 +82,3 @@ During the development of Chron, we noticed that some pieces would likely be reu
 In addition, we've created [watchface-template](https://github.com/twotoasters/watchface-template), which is a sample project with instructions for use. The basic idea is to clone this project, run a project generation script, reinit the Git repo for your purpose, and you'll have a basic watchface that uses watchface-gears all ready to go. All you'll have to do is modify the Watchface widget, layout, and drawing.
 
 While watchfaces are still only unofficial at this point, we hope that this guide helps you begin design and development of more awesome Android Wear watchfaces to hold you over until the official API arrives.
-

@@ -4,6 +4,8 @@ title: "Google Maps with Custom View Overlays"
 author: Patrick Jackson
 categories: [development, libraries, tools]
 tags: [google maps sdk, custom view]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/google-maps-with-custom-view-overlays
 ---
 
 Google Maps SDK on Android is great.  However, for a recent project at Two Toasters we had a use case that is not handled by the Maps SDK directly.  In our case we needed a dotted circle on top of the map and query data based on the radius of the circle.  The circle and marker remain in the same place as the user scrolls and pans.  There is nothing in the Google Maps SDK to handle this for us.  Enter Custom Views!
@@ -192,4 +194,3 @@ public double getSearchRadius() {
 ##Wrapping Up
 
 If the Android SDK doesn't have a view that you need then you can roll your own by extending the View class.  This is a great way to create views that can be reused in your app, or multiple apps.  Finally putting the layout in XML and using custom attributes is a great way to make reusing and customizing the view easy.  We're just scratching the surface here, if your looking for more check out the [Google Android Developers site](http://developer.android.com/training/custom-views/index.html).
-

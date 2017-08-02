@@ -4,6 +4,8 @@ title: "Null Shared Preference Key == Bad News Droids"
 author: Chris Pierick
 categories: [tips, development]
 tags: [shared preference, bug, android, java]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/null-shared-preferences-key-equals-bad-news-droids
 ---
 
 There is a little [known bug][1] in Android’s SharedPreference that will have devastating effects on your app. This revolves around what happens when you try to save a null key into SharedPreferences. The first question is:

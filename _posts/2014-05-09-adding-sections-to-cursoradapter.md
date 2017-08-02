@@ -4,6 +4,8 @@ title: "Adding Sections to CursorAdapter"
 author: Chris Pierick
 categories: [libraries, tools]
 tags: [cursoradapter, java, opensource, tutorial]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/adding-sections-to-cursoradapter
 ---
 
 Creating a [`ListAdapter`][ListAdapter] from a [`BaseAdapter`][BaseAdapter] with sections is fairly easy, though it can be non-trival. Here at Two Toasters we often use SQLite databases with a [`CursorAdapter`][CursorAdapter]. [`CursorAdapter`][CursorAdapter] abstracts `getView` from you by having you implement `newView` and `bindView` instead. This is great because then you don’t have manage any of the view recycling yourself and the cursor is given to you already moved to the position for your list item. This is where things get tricky when you want to add sections.
@@ -137,4 +139,3 @@ Making a [__`CursorAdapter`__][CursorAdapter] with sections is fairly complicate
 [ListAdapter]: http://developer.android.com/reference/android/widget/ListAdapter.html
 [SectionCursorAdapter]: https://github.com/twotoasters/SectionCursorAdapter
 [SectionIndexer]: http://developer.android.com/reference/android/widget/SectionIndexer.html
-

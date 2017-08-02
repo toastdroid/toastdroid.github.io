@@ -4,6 +4,8 @@ title: "NFC On Android, Part 1: History and Concepts"
 author: Ben Berry
 categories: [background]
 tags: [nfc, near field communication, wireless]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/nfc-on-android-part-1
 ---
 
 Near Field Communication (NFC) is an RFID technology that's been rattling around in the mobile world for years and never quite managed to take off. More general forms RFID still dominate badging and physical access control. Apple Pay and Android Pay are struggling to find acceptance without anybody mentioning they run on NFC. And nobody's quite figured out why you would use an NFC sticker to control your Android phone when an app like [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) can tell your location, movement mode, and connected wireless networks. 

@@ -4,6 +4,8 @@ title: "Smooth ActionBar Transitions when Opening a Navigation Drawer"
 author: Ben Berry
 categories: [development]
 tags: [android, java, animation]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/smooth-transition-with-nav-drawer
 ---
 
 Have you ever wanted your Action Bar to animate and change as smoothly as your Navigation Drawer when the drawer opens and closes? Here at Two Toasters, this is exactly the kind of little touch we pay attention to. So when we come across this kind of janky transition, we fix it:
