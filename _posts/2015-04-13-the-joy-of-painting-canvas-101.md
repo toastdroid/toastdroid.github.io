@@ -4,6 +4,8 @@ title: "The Joy of Painting: Canvas 101"
 author: Curtis Martin
 categories: [development]
 tags: [ui, canvas, paths, drawing]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/the-joy-of-painting-canvas-101
 ---
 
 In [a previous blog post](/2014/06/21/creating_reusable_custom_components), we touched on creating custom UI components containing several stock Android controls. But what if you want to create a completely custom View, complete with its own drawing behavior? To accomplish that, you'll need to become familiar with the `Canvas`.

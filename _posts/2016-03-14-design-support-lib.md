@@ -4,6 +4,8 @@
   author: Curtis Martin
   categories: [development]
   tags: [ui, material, lollipop]
+
+  redirect_to: http://www.ticketmastermobilestudio.com/blog/design-support-lib
 ---
 
 If you're an Android developer (and you probably are if you're reading this blog), you've probably heard of the Design Support Library. It was [unveiled at Google I/O](http://android-developers.blogspot.com/2015/05/android-design-support-library.html) last year, and comes with several classes to assist you in making your apps follow the [Material Design Guidelines](https://www.google.com/design/spec/material-design/introduction.html). This leads to not only a great user experience, but consistency across apps all over the Android ecosystem. This is something that has been sorely lacking up until the introduction of Lollipop. In this post, I'm going to show you how to use several elements of the Design Support Library in your app, as well as point out a few gotchas I've come across.<!--more-->

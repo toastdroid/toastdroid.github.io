@@ -4,6 +4,8 @@ title: "2013: The Death of Gingerbread"
 author: Chris Pierick
 categories: [opinion]
 tags: [GB, ICS]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/death-of-gb
 ---
 
 Gingerbread is dead. That's right, not dying but dead. 
@@ -70,5 +72,3 @@ Sure there are libraries like NineOldAndroids, ActionBarSherlock or HoloEverywhe
 4. [https://developer.android.com/about/versions/kitkat.html](https://developer.android.com/about/versions/kitkat.html)
 5. [https://developer.android.com/about/versions/android-4.0-highlights.html](https://developer.android.com/about/versions/android-4.0-highlights.html)
 6. [https://developer.android.com/about/versions/android-4.1.html](https://developer.android.com/about/versions/android-4.1.html)
-
-

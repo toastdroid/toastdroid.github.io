@@ -4,6 +4,8 @@ title: "Android Bluetooth Low Energy Tutorial"
 author: Marcelle Gibble
 categories: [development]
 tags: [bluetooth, btle]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/android-bluetooth-low-energy-tutorial
 ---
 
 In July 2013, the Android API 18 release introduced support for Bluetooth Low Energy (BTLE). With increasing numbers of devices hitting the market, adding support for BTLE devices has become a priority for many.  However, diving into the Android BTLE documentation can be a bit daunting for the novice. This tutorial will walk through the basic concepts of BTLE, and then show snippets of code to further illustrate the communication with remote devices.<!--more-->

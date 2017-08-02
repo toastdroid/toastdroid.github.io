@@ -4,6 +4,8 @@ title: "How to use Android's Job Scheduler"
 author: Chris Pierick
 categories: [development]
 tags: [job scheduler, support library]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/how-to-use-androids-job-scheduler
 ---
 
 One of the really cool things about Lollipop is the new [`JobScheduler`][1] API. Not only is this API exciting for developers but end users should also be excited.

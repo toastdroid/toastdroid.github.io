@@ -2,6 +2,8 @@
 layout: index
 title: ToastDroid
 tagline: Articles from the TMS Android team
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog
 ---
 {% include JB/setup %}
 
@@ -21,11 +23,9 @@ tagline: Articles from the TMS Android team
                 <!-- <hr>
                 <img class="img-responsive" src="http://placehold.it/900x300" alt=""> -->
                 <hr>
-		{{ post.excerpt }}                
+		{{ post.excerpt }}
                 <a class="btn btn-primary" href="{{ BASE_PATH }}{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
 
   {% endfor %}
-
-

@@ -4,6 +4,8 @@ title: "NFC On Android, Part 2: Implementation Details"
 author: Ben Berry
 categories: [Development]
 tags: [NFC, near field communication, wireless]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/nfc-on-android-part-2
 ---
 
 Last month, we discussed the history of Near Field Communication, what it is, and introduced some high level concepts about how it can be used. This week, we'll dive into how to put those ideas into practice on Android.

@@ -4,6 +4,8 @@ title: "On-Screen Keyboard State Tracking in 3 Easy Steps"
 author: Ben Berry
 categories: [development]
 tags: [keyboard]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/on-screen-keyboard-state-tracking-in-3-easy-steps
 ---
 
 If you've never been frustrated by the inability in Android to know whether or not the on-screen keyboard is open, this article probably isn't for you. Even if you have hit that roadblock in the past, it's very possible that Android was trying to save you from a bad design decision. But if you really want to know how to deal with whether or not the soft keyboard is open, read on.<!--more-->

@@ -4,6 +4,8 @@ title: "MessageApi: Simple Conversations with Android Wear"
 author: Curtis Martin
 categories: [development]
 tags: [wear, messageapi, bluetooth]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/messageapi-simple-conversations-with-android-wear
 ---
 
 Android Wear has finally arrived, and we can all finally live out our childhood dreams of being Dick Tracy. A new frontier for both developers and consumers alike, Wear allows us to use our existing Android devices in new and exciting ways. In fact, the Wear platform itself is absolutely dependent on communicating with our phones and tablets. Google has come up with some pretty simple APIs that facilitate this communication, luckily for us. Today, we're going to talk about MessageApi, which is the simplest way we can pass information to and from a Wear device.<!--more-->

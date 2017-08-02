@@ -4,6 +4,8 @@ title: "On-Screen Keyboard Tracking, Part 2"
 author: Ben Berry
 categories: [development]
 tags: [keyboard]
+
+redirect_to: http://www.ticketmastermobilestudio.com/blog/on-screen-keyboard-tracking-part-2
 ---
 
 A few months ago, we discussed [the basic steps you can use to keep track of whether a screen in your app has the soft keyboard open](/2014/10/14/on-screen-keyboard-state-tracking-in-3-easy-steps). 
@@ -75,4 +77,3 @@ Want to have the keyboard open when the activity starts? Have the EditText `requ
 Want to only show the "Submit" or "Next" button once the user has opened the keyboard? Add an `onFocusChangedListener`.
 
 Now, instead of statefully tracking whether the keyboard is open or closed, you can just react (via focus change events) to it opening and closing, a much more event-driven, Android-y way of doing things. 
-
